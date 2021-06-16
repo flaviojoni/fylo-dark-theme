@@ -1,0 +1,56 @@
+/* TYPO */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/* COLORS */
+:root {
+    --dark-blue-one: hsl(217, 28%, 15%);
+    --dark-blue-two: hsl(218, 28%, 13%);
+    --dark-blue-three: hsl(216, 53%, 9%);
+    --dark-blue-four: hsl(219, 30%, 18%);
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+/* HEADER | NAVBAR */
+.header-nav {
+    background-color: var(--dark-blue-one);
+}
+
+/* GRIDS AND FLEX */
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav img {
+    width: 100px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 12px;
+    font-family: 'Raleway';
+}
+
+.nav-links a:hover {
+    border-bottom: 1px solid var(--white);
+}
+
+/* MEDIAS (1440px)*/
